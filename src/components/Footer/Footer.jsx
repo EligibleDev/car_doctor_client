@@ -34,7 +34,7 @@ const Footer = () => {
                         {icons.map((icon) => (
                             <Link
                                 to="#"
-                                className="text-sm rounded-full box-content transition text-white hover:bg-[var(--primary)] bg-[var(--link)] p-3"
+                                className="text-sm rounded-full box-content transition text-[var(--white)] hover:bg-[var(--primary)] bg-[var(--link)] p-3"
                                 key={icon}
                             >
                                 {React.createElement(icon, {})}

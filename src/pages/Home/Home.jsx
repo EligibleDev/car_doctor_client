@@ -1,10 +1,13 @@
+import About from "./sections/About/About";
+import Banner from "./sections/Banner/Banner";
 
 const Home = () => {
-      return (
-            <div>
-                 this is home 
-            </div>
-      );
+    return (
+        <>
+            <Banner />
+            <About />
+        </>
+    );
 };
 
 export default Home;

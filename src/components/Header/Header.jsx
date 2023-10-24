@@ -54,7 +54,7 @@ const Header = () => {
                     <ul className="flex gap-6">
                         {navLinks.map((item) => (
                             <Link
-                                className="text-base font-semibold text-[var(--link)]"
+                                className="text-base font-semibold text-[var(--link)] hover:text-[var(--primary)] transition"
                                 to={item?.path}
                                 key={item?.path}
                             >
