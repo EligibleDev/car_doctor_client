@@ -5,10 +5,11 @@
 
 :root {
     --white: #ffffff;
+    --body-text: #737373;
     --link: #444444;
     --primary: #ff3811;
     --black-bg: #151515;
-    --footer-text: #E8E8E8;
+    --footer-text: #e8e8e8;
 }
 
 html {
